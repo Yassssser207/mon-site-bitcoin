@@ -72,7 +72,7 @@ st.markdown(f"""
 
 st.markdown("<br><br><br><br>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: white;'>Bienvenue sur notre site</h1>", unsafe_allow_html=True)
-st.image("images/background.png", use_column_width=True)
+st.image("images/background.png", use_container_width=True)
 
 botcoin_clicked = st.button("Ouvrir Botcoin")
 if botcoin_clicked:
